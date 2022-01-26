@@ -1,0 +1,19 @@
+
+// CD is use to get to a directory ----------------------------------------------------------------
+cd  C:\Users\Gabriel Fillon\Desktop\Comp_Sci_165\CodeBlocks\Programs\Assignment 3\Official
+
+// How to use input redirection  ----------------------------------------------------------------
+
+Assignment_3.exe < input.txt
+
+// CD..    goes back a director ----------------------------------------------------------------
+
+//use this to read the text file in command prompt. 
+--- Command prompt ---
+more students.txt
+type students.txt
+
+--- Bash ---
+cat students.txt
+
+

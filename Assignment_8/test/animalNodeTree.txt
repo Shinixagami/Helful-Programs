@@ -1,0 +1,31 @@
+Do you like banks
+awdawd
+Can if fly?
+Bat
+EOF
+EOF
+Bear
+EOF
+EOF
+Can it fly?
+Bird
+EOF
+EOF
+Reptile
+EOF
+EOF
+Does it have gills?
+Is it fresh water?
+Sturgeons
+EOF
+EOF
+porgy
+EOF
+EOF
+Is it a crustacean
+Shrimp
+EOF
+EOF
+Jellyfish
+EOF
+EOF

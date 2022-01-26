@@ -1,0 +1,31 @@
+Is it on land
+Is it a mammal?
+Can if fly?
+it is a Bat
+EOF
+EOF
+it is a Bear
+EOF
+EOF
+Can it fly?
+it is a Bird
+EOF
+EOF
+it is a Reptile
+EOF
+EOF
+Does it have gills?
+Is it fresh water?
+it is a Sturgeons
+EOF
+EOF
+it is a porgy
+EOF
+EOF
+Is it a crustacean
+it is a Shrimp
+EOF
+EOF
+it is a Jellyfish
+EOF
+EOF

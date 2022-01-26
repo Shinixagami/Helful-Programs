@@ -1,0 +1,85 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace TestInterstCalculation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //double P = 100; // Variable Start principle
+            double P;
+            double I; // Interest Rate
+            double T; //Time Elapsed
+            double TL; //Time Length Interval Variable 
+            double C = 0; //Loop Counter, set to 08
+            double IC = 10; // Iteration Cycle = TL * T 
+            double PT; //P total  each new cycle
+
+            //Console.WriteLine("C Value = " + C);
+
+            //Console.WriteLine("Starting Principle Amount is " + P);
+
+            //Example is based off of 2 years. 
+
+            Console.WriteLine("Compound Calculator V1.01");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~");
+
+            while (C <= IC)
+            {
+                Console.WriteLine("C Value = " + C);
+
+
+                Console.WriteLine("Please Enter the Starting Principle:");
+                P = double.Parse(Console.ReadLine());
+               
+                Console.WriteLine("Please Enter the Interest Rate (enter 8%) :");
+               I = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Please Enter the Time length in years (enter 2) :");
+                T = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Time Interval is 12");
+                //TL = float.Parse(Console.ReadLine());
+                TL = 12;
+
+                I =  I / 100 + 1;
+
+                Console.WriteLine("Interest Rate is " + I);
+
+
+                IC = TL * T;
+                Console.WriteLine(" Iteraction Cycle is " + IC);
+
+                C = C + 1;
+                PT = P * I;
+
+                //String TT = "123.4567";
+
+                //String.Format("{0:0.12}", TT);
+
+                //Console.WriteLine("Test Number = " + TT);
+
+                PT = Math.Round(PT * 100.0) / 100.0;
+
+                
+
+                Console.WriteLine("Principle + Interest = " +PT);
+                Console.WriteLine("C Value = " + C);
+                Console.WriteLine("~~~~~~~~~~~~~~~~~" );
+
+
+            }
+
+            Console.WriteLine("The end Value of C is" + C);
+            Console.WriteLine("End of the script");
+
+            
+
+        }
+    }
+}

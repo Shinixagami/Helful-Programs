@@ -1,0 +1,16 @@
+Bill Gates
+65
+Albuquerque
+3.6
+Comp Sci
+Steve Jobs
+56
+Los Altos
+3.2
+CIS
+Elon Musk
+50
+San Carlos
+3.3
+Business
+EOF
