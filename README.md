@@ -1,5 +1,5 @@
 # Programs
-This is REFERENCE MATERIAL useful for programming classes 210 and 260.:)
+This is REFERENCE MATERIAL useful for programming classes 210 and 260 :)
 
 If you use this you agree to these terms here:
 
